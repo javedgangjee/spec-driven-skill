@@ -11,7 +11,7 @@ This skill keeps CHANGELOG.md at the repo root. The user calls it as `/changelog
 ## Rules
 
 1. Write only what the git history and the files in specs/ show. Do not guess at a change or at its reason.
-2. Do not write in any folder that CLAUDE.md says the user owns. Do not commit. If the user asks you to commit, follow the commit rule in CLAUDE.md. If CLAUDE.md has no commit rule, ask the user how to mark the commit.
+2. Do not write in any folder that CLAUDE.md says the user owns. Do not commit. If the user asks you to commit, do not add trailers, co-author lines, or any other mark of AI use.
 3. Write each entry as one full sentence in plain English. Follow the writing rules in CLAUDE.md if it has any.
 4. Refer to a feature by its roadmap number.
 5. Show new entries to the user and wait for approval before you save them.
