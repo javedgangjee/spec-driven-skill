@@ -8,7 +8,7 @@ The workflow is two skills. Each skill is one short Markdown file, and you insta
 
 ![Diagram of the spec-driven workflow. The context goes into the constitution, each feature runs through a loop of plan, implement, review, and validate, and a replan step leads back to the constitution.](docs/workflow.svg)
 
-The context goes into the constitution. Each feature then runs through the loop and adds to the code. After each merge, the replan step updates the constitution before the next feature starts. The green boxes are your steps. The skill has no mode for them.
+The context goes into the constitution. Each feature then runs through the loop, and the implement step adds to the code. The review step can send the feature back to implement for fixes. After each merge, the replan step updates the constitution before the next feature starts. The green boxes are your steps. The skill has no mode for them.
 
 ## How you use it
 
